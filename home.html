@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Spline+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script class="img" src="home.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header header--backgroundcolor">
+      <img class="header_img" src="assets2/20.png" alt="Facebook" />
+      <img class="header_img" src="assets2/19.png" alt="Twitter" />
+    </header>
+    <nav class="nav nav--backgroundcolor">
+      <img
+        class="nav_img"
+        src="assets2/companylogo.png"
+        alt="Company logo"
+      />
+      <ul class="menu_item">
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item item_collapse">
+          <a href="#">Book</a>
+          <ul class="menu_item menu_item_collapse">
+            <li class="item item_collapse2"><a href="#">Test</a></li>
+          </ul>
+        </li>
+        <li class="item item_collapse">
+          <a href="#">Destinations</a>
+          <ul class="menu_item menu_item_collapse">
+            <li class="item item_collapse2"><a href="#">France</a></li>
+            <li class="item item_collapse2"><a href="#">Brazil</a></li>
+            <li class="item item_collapse2"><a href="#">Algeria</a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="#">Prices</a></li>
+        <li class="item"><a href="#">Alerts</a></li>
+        <li class="item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="section1 section1--backgroundcolor">
+      <!-- Caroussel Image -->
+
+      <div class="slider_container">
+        <div class="slider_img transition default">
+          <img class="img" src="assets2/6.jpg" alt="" />
+          <div class="text">Tips to travel around the world !t</div>
+        </div>
+
+        <div class="slider_img transition">
+          <img class="img" src="assets2/7.jpg" alt="" />
+          <div class="text">Tips to travel around the world !</div>
+        </div>
+
+        <div class="slider_img transition">
+          <img class="img" src="assets2/8.jpg" alt="" />
+          <div class="text">Tips to travel around the world !</div>
+        </div>
+
+        <div class="slider_img transition">
+          <img class="img" src="assets2/9.jpg" alt="" />
+          <div class="text">Tips to travel around the world !</div>
+        </div>
+        <div class="slider_img transition">
+          <img class="img" src="assets2/10.jpg" alt="" />
+          <div class="text">Tips to travel around the world !</div>
+        </div>
+        <div class="slider_img transition">
+          <img class="img" src="assets2/11.jpg" alt="" />
+          <div class="text">Tips to travel around the world !</div>
+        </div>
+
+        <a onclick="NextSlides(-1)"
+          ><img class="before img" src="assets2/2.1.png" alt=""
+        /></a>
+        <a onclick="NextSlides(1)"
+          ><img class="after img" src="assets2/2.2.png" alt=""
+        /></a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="circle active" onclick="OnSlide(1)"></span>
+        <span class="circle" onclick="OnSlide(2)"></span>
+        <span class="circle" onclick="OnSlide(3)"></span>
+        <span class="circle" onclick="OnSlide(4)"></span>
+        <span class="circle" onclick="OnSlide(5)"></span>
+        <span class="circle" onclick="OnSlide(6)"></span>
+      </div>
+
+      <!-- Fin Carroussel -->
+    </div>
+    <main class="section2">
+      <article class="article article1">
+        <div class="section2_div div--backgroundcolor">
+          <img class="section2_img img" src="assets2/13.png" alt="" />
+          <h2 class="section2_h2">Safe, structured and amazing application</h2>
+        </div>
+        <p class="section2_p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          incidunt eligendi aliquam consequatur exercitationem possimus est hic
+          ducimus molestias cupiditate inventore alias doloribus placeat cumque
+          laudantium, dolorum dolores, id atque ab odio sequi repellat ipsam.
+          Architecto eaque quasi, vero nisi temporibus omnis laboriosam magnam
+          esse laborum, est provident doloremque sed.
+        </p>
+        <a class="section2_a" href="#">more info</a>
+      </article>
+      <article class="article article2">
+        <div class="section2_div div--backgroundcolor">
+          <img class="section2_img img" src="assets2/17.png" alt="" />
+          <h2 class="section2_h2">The sun is shining today, book your trip</h2>
+        </div>
+        <p class="section2_p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          incidunt eligendi aliquam consequatur exercitationem possimus est hic
+          ducimus molestias cupiditate inventore alias doloribus placeat cumque
+          laudantium, dolorum dolores, id atque ab odio sequi repellat ipsam.
+          Architecto eaque quasi, vero nisi temporibus omnis laboriosam magnam
+          esse laborum, est provident doloremque sed.
+        </p>
+        <a class="section2_a" href="#">more info</a>
+      </article>
+      <article class="article article3">
+        <div class="section2_div div--backgroundcolor">
+          <img class="section2_img img" src="assets2/12.png" alt="" />
+          <h2 class="section2_h2">Meet new people and live more intensely</h2>
+        </div>
+        <p class="section2_p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          incidunt eligendi aliquam consequatur exercitationem possimus est hic
+          ducimus molestias cupiditate inventore alias doloribus placeat cumque
+          laudantium, dolorum dolores, id atque ab odio sequi repellat ipsam.
+          Architecto eaque quasi, vero nisi temporibus omnis laboriosam magnam
+          esse laborum, est provident doloremque sed.
+        </p>
+        <a class="section2_a" href="#">more info</a>
+      </article>
+      <h1 class="section2_h1">Destinations</h1>
+      <hr class="hr4" />
+      <div class="france_flag">
+        <img
+          class="section2_imgflag img"
+          src="assets2/3.jpg"
+          alt="France Flag"
+        />
+        <p class="section2_p2">France</p>
+      </div>
+      <div class="brazil_flag">
+        <img
+          class="section2_imgflag imgflag_display img"
+          src="assets2/4.jpg"
+          alt="Brazil Flag"
+        />
+        <p class="section2_p2 p2_display">Brazil</p>
+      </div>
+      <div class="algeria_flag">
+        <img
+          class="section2_imgflag imgflag_display img"
+          src="assets2/5.jpg"
+          alt="Algeria Flag"
+        />
+        <p class="section2_p2 p2_display">Algeria</p>
+      </div>
+    </main>
+    <section class="section3 section3--backgroundcolor">
+      <div class="conteneur">
+        <div class="section3_article1">
+          <h2 class="section3__h2">About Us</h2>
+          <hr class="hr6" />
+          <p class="section3_p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            molestias eveniet odio delectus nihil soluta libero corrupti rem
+            natus ratione ea eaque exercitationem amet quas nisi consectetur
+            tempora, officiis tempore.
+          </p>
+          <p class="section3_p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            autem incidunt, amet atque mollitia aut, accusamus ipsam minima
+            recusandae tenetur quos, maiores quibusdam reprehenderit quod quam
+            molestiae nihil eos minus voluptatum suscipit sit veniam maxime
+            molestias repellat? Eius iusto assumenda ipsam aspernatur distinctio
+            quo ipsa harum, repudiandae provident fugiat rem! Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Aspernatur autem incidunt,
+            amet atque mollitia aut, accusamus ipsam minima recusandae tenetur
+            quos, maiores quibusdam reprehenderit quod quam molestiae nihil eos
+            minus voluptatum suscipit sit veniam maxime molestias repellat? Eius
+            iusto assumenda ipsam aspernatur distinctio quo ipsa harum,
+            repudiandae provident fugiat rem!
+          </p>
+        </div>
+        <div class="section3_article2">
+          <h2 class="section3_h2">Why Us</h2>
+          <hr class="hr7" />
+          <img class="section3_img" src="assets2/14.png" alt="Compas" />
+          <p class="section3_p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ad,
+            aliquid, eaque voluptate odit impedit provident quod ducimus
+            consequatur nemo a, animi libero itaque! Id obcaecati mollitia nisi
+          </p>
+          <img class="section3_img" src="assets2/15.png" alt="Maps" />
+          <p class="section3_p">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Reprehenderit velit dignissimos, voluptate sint quaerat reiciendis
+            inventore iure facere repudiandae quasi perferendis, consequuntur
+            officia
+          </p>
+          <img class="section3_img" src="assets2/16.png" alt="Bike" />
+          <p class="section3_p">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quis
+            numquam cumque alias, velit reiciendis. Eius, velit officiis tempore
+            a veniam
+          </p>
+        </div>
+      </div>
+      <h2 class="section3_p2">How to travel ?</h2>
+      <hr class="hr8" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusantium
+        harum quod reprehenderit fugit excepturi dolorem voluptatibus dolor ab
+        vel ipsam libero dolore, hic aperiam non iste repellendus distinctio
+        ipsa?
+      </p>
+      <button class="submit_button">Subscribe</button>
+    </section>
+    <footer class="footer footer--background">
+      <ul class="footer_ul">
+        <li class="footer_li"><a class="footer_a" href="#">Home</a></li>
+        <li class="footer_li"><a class="footer_a" href="#">Prices</a></li>
+        <li class="footer_li"><a class="footer_a" href="#">Book</a></li>
+        <li class="footer_li"><a class="footer_a" href="#">Alerts</a></li>
+        <li class="footer_li"><a class="footer_a" href="#">Destinations</a></li>
+        <li class="footer_li"><a class="footer_a" href="#">Contact</a></li>
+      </ul>
+      <small class="footer_small">© There is no birds here Look around.</small>
+    </footer>
+  </body>
+</html>
